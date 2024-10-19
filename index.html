@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Opener</title>
+    <link rel="shortcut icon" href="assets/icons/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <h1>Url Opener</h1>
+            <h2>- by exosZoldyck -</h2>
+            <div class="textbox-container">
+                <textarea name="url-opener" class="no-outline" id="textbox" autofocus></textarea>
+            </div>
+            <div class="inputs-container">
+                <div>
+                    <button id="button-open" onclick="openURLs(readTextbox())">Open</button>
+                    <input type="checkbox" name="" id="checkbox-reverse-order">
+                    <label for="checkbox-reverse-order" id="checkbox-reverse-order-label">Reverse order</label>
+                </div>
+                <div class="row-counter-container">
+                    <span id="row-counter"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="open.js"></script>
+</body>
+</html>
